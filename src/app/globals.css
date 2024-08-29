@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS variables for color scheme */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+/* Dark mode color scheme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* Body styles */
+body {
+  @apply text-black dark:text-white bg-gradient-to-b from-transparent to-white dark:to-black;
+  background-color: rgb(var(--background-start-rgb));
+  font-family: 'Georgia', serif; /* Serif font for elegant headings */
+}
+
+/* Custom utility class for text balance */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Font styles for headings and body text */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', serif;
+}
+
+p, a, li {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Hover effects */
+a:hover {
+  text-decoration: underline;
+}
+
+.hover\:opacity-75:hover {
+  opacity: 0.75;
+}
+
+/* Spacing for sections */
+section {
+  scroll-margin-top: 80px; /* Adjust this value to control the spacing from the header */
+}
