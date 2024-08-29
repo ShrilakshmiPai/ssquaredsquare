@@ -37,7 +37,7 @@ export default function Home() {
             <h3 className="text-3xl font-serif font-semibold text-primary mt-6">Owner Profile</h3>
             <p>S-square D-square LLC, is the second company founded by Shashank Honavar, a seasoned Risk Management executive with over 23 years experience covering multiple risk disciplines (Operational Risk, Credit Risk, Market Risk, Treasury Risk, Reputation Risk, Culture Risk), implementation of COSO ERM Framework guidelines, design and execution of risk-based audit programs leveraging data analytics and relationship management with regulatory agencies during periodic safety and soundness reviews.</p>
             <p>Shashank set up S-square D-square LLC in 2018 after talking to several small business owners and sensing a business opportunity. Small businesses make up 97% of all US businesses and collectively represent an untapped market for someone with the right experience to come in and provide fractional CXO services and help solve all of their business problems and also help develop/implement growth strategies.</p>
-            <p>For additional details on the owner’s background, please visit <a href="https://www.linkedin.com/in/shashank-honavar" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Shashank Honavar’s LinkedIn profile</a>.</p>
+            <p>For additional details on the owner’s background, please visit <a href="https://www.linkedin.com/in/innovationusingdatascience/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Shashank Honavar’s LinkedIn profile</a>.</p>
           </div>
         </div>
       </section>
